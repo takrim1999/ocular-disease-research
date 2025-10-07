@@ -1,0 +1,40 @@
+# ResNet-based Generative Data Augmentation Requirements
+# Based on the original VGG19 research with ResNet50 architecture improvements
+
+# Core ML/DL frameworks
+python=3.10 
+tensorflow>=2.11.0
+tensorflow-addons>=0.19.0
+torch>=1.13.1
+torchvision>=0.14.0
+
+# Data processing and visualization
+numpy>=1.22.4
+pandas>=1.5.3
+matplotlib>=3.6.3
+seaborn>=0.12.2
+opencv-python-headless>=4.7.0.72
+scikit-learn>=1.2.2
+pillow>=9.0.0
+
+# Generative AI and diffusion models
+diffusers[torch]>=0.10.2
+transformers>=4.28.1
+accelerate>=0.18.0
+stabilityai/stable-diffusion-2-1
+
+# Scientific computing
+scipy>=1.9.0
+ftfy>=6.1.1
+
+# Utilities
+gradio>=3.19.0
+natsort>=8.3.1
+safetensors>=0.3.1
+xformers>=0.0.20
+bitsandbytes>=0.38.1
+invisible-watermark>=0.1.5
+
+# Colab specific (if running in Google Colab)
+google-colab>=1.0.0
+
